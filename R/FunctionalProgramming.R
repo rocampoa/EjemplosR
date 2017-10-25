@@ -56,3 +56,8 @@ combine <- function(f, x, y ,z) {
 
 combine(add, 3, 4, 5)
 combine(product, 3, 4, 5)
+
+num_vec <- c(1, 2, 3, 4, 5)
+data_frame <- data.frame(x = 1:5, y = rnorm(5))
+head(num_vec, 3)
+head(data_frame, 3)
